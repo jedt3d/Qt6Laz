@@ -1,0 +1,34 @@
+# Build artifacts
+bridge/build/
+bridge/tmp/
+*.o
+*.ppu
+*.a
+*.so
+*.dll
+*.dylib
+*.framework
+*.app
+*.exe
+
+# Lazarus/FPC backup files
+*.bak
+*.orig
+*~
+~*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Qt build files
+Makefile.Makefile
+moc_*.cpp
+qrc_*.cpp
+ui_*.h
